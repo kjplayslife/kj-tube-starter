@@ -1,0 +1,16 @@
+.DS_Store
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+.swiftpm/
+.build/
+
+# Secrets: never commit these
+Secrets.xcconfig
+*.p8
+*.mobileprovision
+.env
+local.properties
+*.jks
+*.keystore

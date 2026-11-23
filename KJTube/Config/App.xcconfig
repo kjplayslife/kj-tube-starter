@@ -1,0 +1,15 @@
+// Shared app settings. Secrets live in ../Secrets.xcconfig (gitignored).
+// Copy ../Secrets.example.xcconfig to ../Secrets.xcconfig and fill it in.
+
+// Change the bundle ID to your own (reverse-domain style) before running on a phone.
+APP_BUNDLE_ID = com.example.kjtube
+APP_DISPLAY_NAME = KJ Tube
+APP_ICON_NAME = AppIconPublic
+// YES = the App Store flavour: YouTube's own player controls, nothing drawn over the video.
+// NO  = the original personal flavour: custom controls and a small player.
+PUBLIC_BUILD = NO
+
+// Placeholder; Secrets.xcconfig replaces it with your own team ID.
+DEVELOPMENT_TEAM =
+
+#include? "../Secrets.xcconfig"
