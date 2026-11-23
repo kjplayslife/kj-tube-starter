@@ -36,3 +36,7 @@ The Skip Ad feature's ad finder and its server, the tip jar's App Store setup, t
 ## Playing by YouTube's rules
 
 If you publish your version, read the [YouTube API Services Terms](https://developers.google.com/youtube/terms/api-services-terms-of-service) and [Developer Policies](https://developers.google.com/youtube/terms/developer-policies). In short: play videos only in YouTube's official embedded player, don't cover or hide its controls, don't block ads, and show a privacy policy. `PUBLIC_BUILD = YES` in `App.xcconfig` is the flavour of this app that follows those rules; `NO` is the original personal flavour with custom controls, which is fine to study but not to publish.
+
+## License
+
+MIT. See [LICENSE](LICENSE). The Bible verses in `verses.json` are quoted from the ESV and are not covered by this license.
